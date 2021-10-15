@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MuXiaoxi</title>
+    <link>http://example.org/</link>
+    <description>Recent content on MuXiaoxi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 15 Oct 2021 19:16:10 +0800</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>http://example.org/posts/first/</link>
+      <pubDate>Fri, 15 Oct 2021 19:16:10 +0800</pubDate>
+      
+      <guid>http://example.org/posts/first/</guid>
+      <description>我的第一篇博客 ##希望与大家分享编程经验</description>
+    </item>
+    
+    <item>
+      <title>在github中创建hugo博客中遇到的问题及解决方法</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Fri, 15 Oct 2021 17:39:41 +0800</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>遇到的问题 在配置过程中在将theme主题添加到站点配置中时输入echo theme = &amp;quot;ananke&amp;quot; &amp;raquo; config.toml后运行hugo server时出现错误提示: ##Error: Error building site: TOCSS: failed to transform &amp;ldquo;ananke/css/main.css&amp;rdquo; (text/css). Check your Hugo installation; you need the extended version to build SCSS/SASS. Built in 28 ms ##经过查找后发现问题在于安装的hugo没有包含extends包
+解决方法 ##到官方下载地址https://github.com/gohugoio/hugo/releases寻找hugo_extends下载并覆盖与原来的hugo根目录 #ps:网络连接也同样是个问题</description>
+    </item>
+    
+  </channel>
+</rss>
